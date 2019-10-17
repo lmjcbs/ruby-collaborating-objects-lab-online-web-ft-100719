@@ -17,6 +17,8 @@ class Artist
     artist = self.all.detect { |artist| artist.name = name }
     if artist == nil
       artist = Artist.new(name)
+    else 
+      artist  
 
 
   end
