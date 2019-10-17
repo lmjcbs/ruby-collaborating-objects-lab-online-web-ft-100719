@@ -10,7 +10,7 @@ class MP3Importer
 
   def files
     files_array = Dir["#{@path}/**/*.mp3"]
-    files_array.map { |filename|  }
+    files_array.map { |filename| File.basename(filename) }
   end
 
   def import
