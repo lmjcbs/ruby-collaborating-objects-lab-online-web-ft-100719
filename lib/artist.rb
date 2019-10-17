@@ -19,7 +19,7 @@ class Artist
       artist = Artist.new(name)
     else
       artist
-    end  
+    end
   end
 
   def add_song(song)
@@ -28,6 +28,10 @@ class Artist
 
   def songs
     Song.all.select { |song| song.artist = self }
+  end
+
+  def print_songs
+
   end
 
 end
