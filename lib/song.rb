@@ -9,4 +9,7 @@ class Song
     @all << self
   end
 
+  def self.all
+    Artist.all
+
 end
