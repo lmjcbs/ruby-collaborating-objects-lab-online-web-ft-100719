@@ -2,6 +2,8 @@ require 'pry'
 
 class MP3Importer
 
-  def initialize
+  def initialize(filepath)
+
+  end
 
 end
