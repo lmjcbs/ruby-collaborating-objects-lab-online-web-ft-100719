@@ -6,4 +6,8 @@ class MP3Importer
 
   end
 
+  def path
+
+  end
+
 end
