@@ -10,7 +10,7 @@ class MP3Importer
 
   def files
     binding.pry
-    Dir["#{@path}"]
+    Dir["#{@path}/**/*.mp3"]
   end
 
   def import
