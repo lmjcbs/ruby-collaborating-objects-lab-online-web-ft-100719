@@ -30,7 +30,7 @@ class Artist
 
   def songs
     binding.pry
-    Song.all.select { |song| song.name == self }
+    Song.all.select { |song| song.artist == self }
   end
 
   def print_songs
