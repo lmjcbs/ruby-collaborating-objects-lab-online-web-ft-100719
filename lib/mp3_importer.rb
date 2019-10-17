@@ -9,7 +9,7 @@ class MP3Importer
   end
 
   def files
-    Dir["#{@path}/**/*.mp3"]
+    files_array = Dir["#{@path}/**/*.mp3"]
   end
 
   def import
