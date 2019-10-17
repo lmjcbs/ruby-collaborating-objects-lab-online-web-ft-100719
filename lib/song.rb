@@ -23,6 +23,7 @@ class Song
 
   def artist_name(artist_string)
     artist = Artist.find_or_create_by_name(artist_string)
+    artist.name
   end
 
 end
