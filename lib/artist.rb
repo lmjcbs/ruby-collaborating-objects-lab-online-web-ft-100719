@@ -33,8 +33,7 @@ class Artist
   end
 
   def print_songs
-    binding.pry
-    puts songs
+    puts "blah"
   end
 
 end
